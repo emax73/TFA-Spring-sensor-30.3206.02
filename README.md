@@ -8,7 +8,7 @@ Using library:
 
 Pin from 433 MHz receiver appointed near begin of file "tfa.c":
 static pin_t tfaPin = {GPIOC, GPIO_PIN_3};
-#define TFA_PIN_CLOCK_ENABLE() __GPIOC_CLK_ENABLE()
+define TFA_PIN_CLOCK_ENABLE() __GPIOC_CLK_ENABLE()
 
 tfaInit() - must called from initialisation code
 tfaTask() - must called from timer interrupt every 50 uSec

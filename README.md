@@ -7,7 +7,7 @@ As receiver was using 433.92 MHz ASK Receiver module from Canton Electronics
 Using library:
 
 Pin from 433 MHz receiver appointed near begin of file "tfa.c":
-static pin_t tfaPin = {GPIOC, GPIO_PIN_3};
+static pin_t tfaPin = {GPIOC, GPIO_PIN_3}
 define TFA_PIN_CLOCK_ENABLE() __GPIOC_CLK_ENABLE()
 
 tfaInit() - must called from initialisation code

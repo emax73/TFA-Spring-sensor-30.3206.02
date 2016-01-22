@@ -12,7 +12,7 @@ extern char tfaSearchSensor; // If True search for sensor
 extern int tfaGoodPackages; // Number of Good Packages 0..12
 extern int tfaNumPackages; // Overal number of Packages 0..12
 
-void tfaInit(void);
-void tfaTask(void);
+void tfaInit(void); // Initialisation procedure, must run once
+void tfaTask(void); // Periodic task, must called every TFA_TASK_US uSec
 
 #endif

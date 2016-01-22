@@ -1,8 +1,9 @@
 TFA Spring weather station 433 MHz Temperature/Humidity sensor 30.3206.02
 protocol handling for STM32F4 microcontroller
 
-As receiver was using 433.92 MHz ASK Receiver module from Canton Electronics
+Builded at Keil uVision, tested at STM32F429 microcontroller
 
+As receiver was using 433.92 MHz ASK Receiver module from Canton Electronics
 (-112dBm, 9600 bod)
 
 Using library:
